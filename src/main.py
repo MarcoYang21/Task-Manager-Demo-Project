@@ -2,11 +2,13 @@ import sys
 import os
 from PySide6.QtWidgets import QApplication
 
-# 將專案根目錄添加到 Python 路徑
+# 確保 src 目錄在 Python 路徑中
 current_dir = os.path.dirname(os.path.abspath(__file__))
 parent_dir = os.path.dirname(current_dir)
-sys.path.append(current_dir)  # 添加 src 目錄到路徑
+if current_dir not in sys.path:
+    sys.path.insert(0, current_dir)
 
+# 導入控制器
 from controllers.task import TaskController
 
 

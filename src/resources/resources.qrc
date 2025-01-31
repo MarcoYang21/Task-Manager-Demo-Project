@@ -1,9 +1,10 @@
 <!DOCTYPE RCC>
 <RCC version="1.0">
     <qresource>
+        <file>icons/app.ico</file>
         <file>icons/actions/add.png</file>
         <file>icons/actions/edit.png</file>
         <file>icons/actions/delete.png</file>
-        <file>icons/app.ico</file>
+        <file>styles/main.qss</file>
     </qresource>
 </RCC>
