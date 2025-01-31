@@ -25,8 +25,8 @@
 ### 1. 克隆專案
 
 ```bash
-git clone https://github.com/yourusername/task-manager.git
-cd task-manager
+git clone https://github.com/MarcoYang21/Task-Manager-Demo-Project.git
+cd Task-Manager-Demo-Project
 ```
 
 ### 2. 安裝 pipenv
