@@ -1,0 +1,55 @@
+/* 主窗口樣式 */
+QMainWindow {
+    background-color: #f5f5f5;
+}
+
+/* 工具欄樣式 */
+QToolBar {
+    background: white;
+    border-bottom: 1px solid #ddd;
+    spacing: 5px;
+    padding: 5px;
+}
+
+/* 工具按鈕樣式 */
+QToolButton {
+    border: none;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+QToolButton:hover {
+    background-color: #e0e0e0;
+}
+
+/* 任務列表樣式 */
+QListWidget {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+QListWidget::item {
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+}
+
+QListWidget::item:selected {
+    background-color: #e3f2fd;
+    color: #1976d2;
+}
+
+/* 對話框樣式 */
+QDialog {
+    background-color: white;
+}
+
+QLineEdit, QTextEdit, QComboBox, QDateTimeEdit {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+QLineEdit:focus, QTextEdit:focus, QComboBox:focus, QDateTimeEdit:focus {
+    border-color: #1976d2;
+}
